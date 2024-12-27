@@ -25,9 +25,16 @@ This tutorial is a good starting point for [getting started with Runpod endpoint
 ## We will end up with the following files:
 
 - `rp_handler.py`: Python script handles the input of the JSON file inside Runpod endpoints.
+
 - `dockerfile`: Defines the container environment for the application.
+
 - send.py`: Python script to send requests to the endpoint.
+
 - `PrepareURL`: Python script used to generate the audio file URL inside the S3 bucket.
+
+  
+
+  
 
 ## Step 1: Generate the audio file URL `PrepareURL.py`:
 - This file needs the `boto3` library to be installed in your environment.
@@ -71,4 +78,4 @@ All Done...
 #### General Notes:
 - Any print statement will appear on the logs not in the returned output -JSON File-.'
 - You can combine the two Python scripts in one script that generates the URL and pass it to the model inference.
- 
+- If the 'delay time' is more than two minutes, then possibly there's a mistake in the building of pushing the container to the docker hub, then you have to re-build it and re-deploy it to Runpod.
