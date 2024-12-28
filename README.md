@@ -12,7 +12,7 @@ This tutorial is a good starting point for [getting started with Runpod endpoint
 
   
 
-## For this tutorial, I need the following:
+## For this tutorial, you need the following:
 
 - Docker installed on your machine.
 
