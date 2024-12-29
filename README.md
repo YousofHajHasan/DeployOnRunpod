@@ -1,6 +1,8 @@
 
 This is the documentation for my first deployment of a 'Hugging Face' model on Runpod serverless.  
 So, this is only a reference to me for the following deployments.  
+
+**I know that the repository needs a lot of improvements in terms of explanation and efficiency, so I really appreciate any tips that could improve it.** :) 
   
 In this tutorial, I want to deploy the OpenAI's whisper model, which is available publically on [HuggingFace](https://huggingface.co/openai/whisper-large-v3)  
   
