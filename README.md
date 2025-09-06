@@ -30,7 +30,7 @@ This tutorial is a good starting point for [getting started with Runpod endpoint
 
 - `dockerfile`: Defines the container environment for the application.
 
-- send.py`: Python script to send requests to the endpoint.
+- `send.py`: Python script to send requests to the endpoint.
 
 - `PrepareURL`: Python script used to generate the audio file URL inside the S3 bucket.
 
